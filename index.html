@@ -43,10 +43,12 @@
 
 h1 {
     font-size: 50px;
-    background: linear-gradient(to right, #003366, #ffffff); /* Темно-синий к белому градиент */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 20px;
+    color: white; /* Белый цвет текста */
+    text-shadow: 
+    2px 2px 0 rgba(0, 0, 0, 0.5), /* Основная тень */
+    4px 4px 0 rgba(0, 0, 0, 0.3), /* Вторая тень для объема */
+    6px 6px 0 rgba(0, 0, 0, 0.1); /* Третья тень для легкости */
+    text-align: center; /* Центрирование текста */
 }
 .animated-text {
             font-size: 24px;
